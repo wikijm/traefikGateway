@@ -115,7 +115,7 @@ Manual yml conf entries are created in this repo to map to the services that are
 
 ### Let's Encrypt certificates
 
-As Traefik acts as the secure proxy for your services, it reqests the certificate to be issued by Let's Encrypt and stores the certificate in an ```acme.json``` file. If you need a ```.key``` and a ```.cert``` file for another service you can use the following tool to extract the keys.
+As Traefik acts as the secure proxy for your services, it requests the certificate to be issued by Let's Encrypt and stores the certificate in an ```acme.json``` file. If you need a ```.key``` and a ```.cert``` file for another service you can use the following tool to extract the keys.
 
 <https://hub.docker.com/r/danielhuisman/traefik-certificate-extractor>
 
